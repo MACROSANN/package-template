@@ -86,7 +86,7 @@ C:\Projetos\Python\Development\Packages\image-processing-package> py setup.py sd
 - [x] Após executar o comando a priori, verifique se as pastas abaixo foram devidamente criadas:
   - [x] build;
   - [x] dist;
-  - [x] image_processing_byalexandrepedrosa.egg-info
+  - [x] image_processing.egg-info
 
 <br />
 <br />
@@ -152,7 +152,7 @@ pip install -r requeriments.txt
 - [x] Instalação do pacote
 
 ```bash
-pip install -i https://test.pypi.org/simple/ image-processing-byalexandrepedrosa
+pip install -i https://test.pypi.org/simple/ image-processing
 ```
 
 <br />
@@ -166,7 +166,7 @@ pip install -i https://test.pypi.org/simple/ image-processing-byalexandrepedrosa
 - [x] Instalação do pacote
 
 ```bash
-pip install image-processing-byalexandrepedrosa
+pip install image-processing
 ```
 
 <br />
@@ -188,8 +188,8 @@ pip install image-processing-byalexandrepedrosa
 
 
 ```python
-from image-processing-byalexandrepedrosa.utils import io, plot
-from image-processing-byalexandrepedrosa.processing import combination, tranformation
+from image-processing.utils import io, plot
+from image-processing.processing import combination, tranformation
 combination.find_difference(image1, image2)
 ```
 
@@ -199,15 +199,6 @@ combination.find_difference(image1, image2)
 
 <br />
 
-
-## Autor
-
-<br />
-<br />
-
-[Alexandre Fernandes Pedrosa (Perfil na DIO)](https://web.dio.me/users/byalefp)
-
-<br />
 
 Observação: leia as [notas](#notas) a seguir, no caso essa parte refere-se a quem realizou o deploy no [ambiente Test Pypi](#user-content-instalação-local-utilizando-o-ambiente-de-teste-do-pypi).
 
@@ -219,7 +210,7 @@ Observação: leia as [notas](#notas) a seguir, no caso essa parte refere-se a q
 <br />
 <br />
 
-O pacote foi criado pela [Karina Kato](https://www.linkedin.com/in/karina-kato-4b2a56182/) e o projeto que tive contato pela primeira vez foi o [Bootcamp Geração Tech Unimed-BH - Ciência de Dados](https://github.com/byalexandrepedrosa/DIO/tree/solucoes/Bootcamps/Geracao%20Tech%20Unimed-BH%20-%20Ciencia%20de%20Dados/) (esse curso aparece em outros Bootcamps, Formações, etc... Ao invés de postar como um pacote próprio no repositório público, estou postando no ambiente de teste do Test Pypi para conclusão da etapa requerida no bootcamp com observação mantendo menção à autora.
+O pacote foi criado pela [Karina Kato](https://www.linkedin.com/in/karina-kato-4b2a56182/)
 
 <br />
 <br />
